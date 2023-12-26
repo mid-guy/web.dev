@@ -49,3 +49,6 @@ Lưu ý: Các cách khác để tải font bao gồm gợi ý tài nguyên prelo
 Do đó, khi suy nghĩ về tối ưu hóa font, điều quan trọng là phải xem xét các bảng định kiểu cũng như các tệp font.
 Thay đổi nội dung hoặc cách cung cấp bảng định kiểu có thể có ảnh hưởng lớn đến thời điểm font đến.
 Tương tự, việc loại bỏ CSS không sử dụng và chia nhỏ bảng định kiểu có thể giảm số lượng font được tải bởi một trang.
+
+
+12312312312321
