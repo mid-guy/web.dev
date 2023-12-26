@@ -1,10 +1,11 @@
 Best practices for fonts
 
+# Best practices for fonts
 
-# Bài viết này được chia thành ba phần: tải font, cung cấp font và render font.
+## Bài viết này được chia thành ba phần: tải font, cung cấp font và render font.
 Mỗi phần giải thích cách một khía cạnh nhất định của vòng đời font hoạt động và cung cấp các phương pháp hay nhất tương ứng.
 
-## Tải Font
+## Font loading
 Font thường là nguồn tài nguyên quan trọng, vì nếu không có chúng, người dùng có thể không thể xem nội dung trang.
 Do đó, các phương pháp hay nhất cho việc tải font thường tập trung vào việc đảm bảo rằng font được tải càng sớm càng tốt.
 Cần phải chú ý đặc biệt đến font được tải từ các trang web bên thứ ba vì việc tải xuống các tệp font này đòi hỏi thiết lập kết nối riêng biệt.
