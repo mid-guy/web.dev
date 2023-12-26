@@ -51,3 +51,25 @@ Thay đổi nội dung hoặc cách cung cấp bảng định kiểu có thể c
 Tương tự, việc loại bỏ CSS không sử dụng và chia nhỏ bảng định kiểu có thể giảm số lượng font được tải bởi một trang.
 
 ## Inline font declarations
+
+Hầu hết các trang web sẽ được hưởng lợi mạnh mẽ từ việc nhúng trực tiếp các khai báo phông chữ và các kiểu dáng quan trọng khác vào phần <head> của tài liệu chính thay vì bao gồm chúng trong một bảng kiểu ngoài. Điều này cho phép trình duyệt phát hiện các khai báo phông chữ sớm hơn vì trình duyệt không cần phải chờ đợi bảng kiểu ngoài tải xuống.
+
+<head>
+  <style>
+    @font-face {
+        font-family: "Open Sans";
+        src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2");
+    }
+
+    body {
+        font-family: "Open Sans";
+    }
+
+    ...v.v.
+
+  </style>
+</head>
+Lưu ý: Lưu ý rằng nếu chỉ một số CSS được nhúng trực tiếp, thì trình duyệt vẫn cần phải chờ đợi tất cả CSS được tải xuống, trước khi nó có thể xác định xem có cần phông chữ hay không.
+
+Cũng lưu ý rằng không nên nhúng trực tiếp các tệp phông chữ. Việc nhúng các tài nguyên lớn như phông chữ có thể làm trễ lại việc giao hàng tài liệu chính, và với đó, là việc phát hiện các tài nguyên khác.
+Nhúng CSS quan trọng có thể là một kỹ thuật tiên tiến mà không phải tất cả các trang web đều có thể đạt được. Lợi ích về hiệu suất rõ ràng, nhưng nó đòi hỏi các quy trình và công cụ xây dựng bổ sung để đảm bảo rằng CSS cần thiết - và lý tưởng nhất là chỉ CSS quan trọng - được nhúng một cách chính xác và rằng bất kỳ CSS bổ sung nào được giao trong một cách không chặn hiển thị.
