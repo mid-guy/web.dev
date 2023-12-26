@@ -64,6 +64,7 @@ Hầu hết các trang web sẽ được hưởng lợi mạnh mẽ từ việc 
 
   </style>
 </head>
+
 Lưu ý: Lưu ý rằng nếu chỉ một số CSS được nhúng trực tiếp, thì trình duyệt vẫn cần phải chờ đợi tất cả CSS được tải xuống, trước khi nó có thể xác định xem có cần phông chữ hay không.
 
 Cũng lưu ý rằng không nên nhúng trực tiếp các tệp phông chữ. Việc nhúng các tài nguyên lớn như phông chữ có thể làm trễ lại việc giao hàng tài liệu chính, và với đó, là việc phát hiện các tài nguyên khác.
