@@ -70,9 +70,14 @@ Hầu hết các trang web sẽ được lợi ích đáng kể từ việc nhú
 ---
 **NOTE**
 
-Note that if only some of the CSS is inlined, then the browser will still need to wait for all the CSS to be loaded, before it can discover if fonts are needed.
+Lưu ý rằng nếu chỉ một phần CSS được nhúng trực tiếp, thì trình duyệt vẫn cần phải chờ đợi cho đến khi toàn bộ CSS được tải xuống, trước khi nó có thể xác định liệu có cần các phông chữ hay không.
 
-Also note that inlining the font files themselves is not recommended. Inlining large resources like fonts is likely to delay the delivery of the main document, and with it, the discovery of other resources.
+Cũng lưu ý rằng việc nhúng trực tiếp các tệp phông chữ không được khuyến nghị. Việc nhúng các nguồn lực lớn như phông chữ có thể làm chậm quá trình giao hàng của tài liệu chính, và do đó, làm chậm việc khám phá các nguồn lực khác.
 
 ---
+
+
+
+
+123123123
 
