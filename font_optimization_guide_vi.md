@@ -73,5 +73,6 @@ Hầu hết các trang web sẽ được lợi ích đáng kể từ việc nhú
 Note that if only some of the CSS is inlined, then the browser will still need to wait for all the CSS to be loaded, before it can discover if fonts are needed.
 
 Also note that inlining the font files themselves is not recommended. Inlining large resources like fonts is likely to delay the delivery of the main document, and with it, the discovery of other resources.
+
 ---
 
