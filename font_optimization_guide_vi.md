@@ -2,7 +2,7 @@ Best practices for fonts
 
 # Best practices for fonts
 
-## Bài viết này được chia thành ba phần: tải font, cung cấp font và render font.
+## Bài viết này được chia thành ba phần: font loading, font delivery và font rendering
 Mỗi phần giải thích cách một khía cạnh nhất định của vòng đời font hoạt động và cung cấp các phương pháp hay nhất tương ứng.
 
 ## Font loading
