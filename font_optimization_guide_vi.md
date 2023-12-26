@@ -45,11 +45,6 @@ h1 {
 
 Nói cách khác, trong ví dụ trên, Open Sans chỉ được tải xuống nếu trang chứa một phần tử <h1>
 
-Lưu ý: Các cách khác để tải font bao gồm gợi ý tài nguyên preload và Font Loading API.
-Do đó, khi suy nghĩ về tối ưu hóa font, điều quan trọng là phải xem xét các bảng định kiểu cũng như các tệp font.
-Thay đổi nội dung hoặc cách cung cấp bảng định kiểu có thể có ảnh hưởng lớn đến thời điểm font đến.
-Tương tự, việc loại bỏ CSS không sử dụng và chia nhỏ bảng định kiểu có thể giảm số lượng font được tải bởi một trang.
-
 ## Inline font declarations
 
 Hầu hết các trang web sẽ được hưởng lợi mạnh mẽ từ việc nhúng trực tiếp các khai báo phông chữ và các kiểu dáng quan trọng khác vào phần <head> của tài liệu chính thay vì bao gồm chúng trong một bảng kiểu ngoài. Điều này cho phép trình duyệt phát hiện các khai báo phông chữ sớm hơn vì trình duyệt không cần phải chờ đợi bảng kiểu ngoài tải xuống.
