@@ -12,6 +12,7 @@ Cần phải chú ý đặc biệt đến font được tải từ các trang we
 
 Nếu bạn không chắc liệu font của trang bạn có được yêu cầu kịp thời hay không, kiểm tra tab Timing trong bảng Network của Chrome DevTools để biết thêm thông tin.
 
+![image](https://github.com/mid-guy/web.dev/assets/99194082/9037da74-282a-4428-b6ed-7df4681952d7)
 Ảnh chụp màn hình của tab Timing trong DevTools
 
 ## Hiểu về @font-face
